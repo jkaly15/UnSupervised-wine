@@ -32,7 +32,7 @@ Proline = st.number_input('Kandungan Proline:', min_value=0)
 features = np.array([Alcohol, Malic_Acid, Ash, Ash_Alcanity, Magnesium, Total_Phenols, Flavanoids,
                      Nonflavanoid_Phenols, Proanthocyanins, Color_Intensity, Hue, OD280, Proline])
 # Tombol untuk memprediksi spesies ikan
-if st.button('Prediksi Buah :'):
+if st.button('Prediksi anggur :'):
     features = np.array([[Alcohol, Malic_Acid, Ash, Ash_Alcanity, Magnesium, Total_Phenols, Flavanoids,
                      Nonflavanoid_Phenols, Proanthocyanins, Color_Intensity, Hue, OD280, Proline]])
     
